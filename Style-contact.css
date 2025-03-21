@@ -1,0 +1,48 @@
+html{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+header{font-size: 5rem;
+    padding-bottom: 100px;
+}
+body{}
+h1{
+    display:inline-flex ;
+    background-color:  lightgreen;
+    height: 100px;
+    width: 300px;
+    color: blue ;
+}
+.container{
+    position: fixed;
+
+}
+.item1 {
+    position:relative;
+    border: 3px solid black;
+    height: 450px;
+    width: 600px;
+          }
+.item2{
+    position: absolute;
+    left: 650px;
+    bottom: 350px;
+    height: 100px;
+    width: 250px;
+    background-origin: padding-box;
+    background-color: aqua;
+    font-size: 20px;
+    
+}
+.item3{
+    position: absolute;
+    left: 650px;
+    bottom: 200px;
+    height: max-content;
+    width: max-content;
+    border: 3px solid red;
+    }
+.material-icons{
+    font-size: 30px ;
+    color: red;
+}
